@@ -1,5 +1,26 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  header
+    div.container
+      h1 title
+      nav
+        | this is navigator
+        ul
+          li 1
+          li 2
+          li 3
+      h2 sub title
+  section
+    article
+      | contents
+      p 1
+      p 2
+      p 3
+    article
+      | contents
+      p 1
+      p 2
+      p 3
+  footer
+    | footer
